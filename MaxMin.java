@@ -1,4 +1,4 @@
-//Minimum and Maximum element in ana array
+//Minimum and Maximum element in an array in Java
 
 public class MaxMin
 {
