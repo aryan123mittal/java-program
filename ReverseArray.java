@@ -1,4 +1,4 @@
-//Reverse of an array
+//Reverse of an array in Java
 
 public class ReverseArray
 {
