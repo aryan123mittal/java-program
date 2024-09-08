@@ -1,0 +1,26 @@
+//Check whether a string is Palindrome or not in Java
+
+
+class Palindrome{
+	public static void main(String[] args) {
+	    	//Take a string 
+		String a = "abba";
+		//Take a empty string for the reverse string
+		String b = "";
+		//for to print the string reverse
+		for (int i=a.length()-1;i>=0;i--){
+			b=b+a.charAt(i);
+		}
+		//for check whether the both string is equal or not
+		if(a.equals(b)){
+			System.out.println("the given string is palindrome");
+		}
+		else {
+			System.out.println("the given string is not palindrome");
+		}
+	}
+}
+
+
+//time complexity is O(n^2)
+//space complexity is O(n)
