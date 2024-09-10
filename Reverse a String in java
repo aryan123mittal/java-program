@@ -1,0 +1,19 @@
+//Reverse a String
+
+class ReverseString{
+	public static void main(String[] args) {
+	    	//Take a string 
+		String s = "hello world";
+		//Take a empty string to store the reverse string
+		String r = "";
+		//for to print the string reverse
+		for (int i=s.length()-1;i>=0;i--){
+			r=r+s.charAt(i);
+		}
+		System.out.println("the reverse string is " + r);
+	}
+}
+
+
+//time complexity is O(n^2)
+//space complexity is O(n)
